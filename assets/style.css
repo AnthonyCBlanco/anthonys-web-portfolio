@@ -41,19 +41,7 @@ body{
     flex-flow: column;
     align-items: center;
 }
-.github-img{
+.card-img{
     max-width:  150px;
     max-height: 100px;
-}
-.github-card{
-    
-}
-.twitter-card{
-    
-}
-.email-card{
-    
-}
-.projects-card{
-    
 }
