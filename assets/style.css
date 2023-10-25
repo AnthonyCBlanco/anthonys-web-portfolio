@@ -32,9 +32,14 @@ header {
     text-align: center;
 }
 .about-me h2{
-    
+    min-width: 300px;
+
 }
 
 .about-me-article{
+    padding: 8px;
+    box-shadow: 4px 6px 20px 0px grey;
+    border-radius: 15px;
+    background-color: whitesmoke;
     margin: 0 20px;
 }
