@@ -23,23 +23,47 @@ header {
     background-size: cover;
 }
 
-/* Main Content Cards */
+/* About Me section */
 
-.about-me{
+.flex-container{
     margin: 3%;
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
     text-align: center;
 }
-.about-me h2{
-    min-width: 300px;
 
+.flex-container p{
+    max-width: 1000px;
+    padding-left: 5px;
+    border-left:  5px solid #138EFF;
 }
 
-.about-me-article{
-    padding: 8px;
-    box-shadow: 4px 6px 20px 0px grey;
+/* Project Section */
+
+#projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.recent-project{
     border-radius: 15px;
-    background-color: whitesmoke;
-    margin: 0 20px;
+    padding: 20px;
+    background-color:  #138EFF;
+    text-align: center;
+    align-items: center;
+}
+
+.recent-project img{
+    max-width: 500px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    'title content'
+    'content title'
+    'title content';
 }
