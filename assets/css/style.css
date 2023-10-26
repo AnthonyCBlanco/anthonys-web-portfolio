@@ -6,6 +6,11 @@
     Font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 /* Header and nav bar */
 header {
     background-color: whitesmoke;
