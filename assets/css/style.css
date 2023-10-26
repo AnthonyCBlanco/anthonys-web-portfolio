@@ -11,6 +11,11 @@ a{
     color: black;
 }
 
+h1 {
+    text-align: center;
+    margin: 8px;
+}
+
 /* Header and nav bar */
 header {
     background-color: whitesmoke;
@@ -121,6 +126,9 @@ footer{
 }
 
 @media (max-width: 979px) {
+    footer{
+
+    }
     h2{
         font-size: medium;
     }
